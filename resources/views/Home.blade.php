@@ -12,7 +12,7 @@
 
     <header class="bg-dark text-white p-4 d-flex justify-content-between align-items-center">
         <section class="seccion_log">
-            <img class="logo" src="imagenes/Peli_Cine.png" alt="Logo">
+            
         </section>
         <aside>
             <a id="inicio" href="iniciosesion.html" class="text-light">Iniciar sesión</a>
@@ -21,11 +21,12 @@
 
     <nav class="bg-secondary text-white p-2">
         <ul class="nav">
-            <li class="nav-item"><a class="nav-link" href="peliculas/accion">Acción</a></li>
-            <li class="nav-item"><a class="nav-link" href="peliculas/comedia">Comedia</a></li>
-            <li class="nav-item"><a class="nav-link" href="peliculas/drama">Drama</a></li>
-            <li class="nav-item"><a class="nav-link" href="peliculas/cienciaficcion">Ciencia Ficción</a></li>
-            <li class="nav-item"><a class="nav-link" href="peliculas/Animacion">Animación</a></li>
+            <li class="nav-item"><a class="nav-link" href="./"><img class="logo navbar-brand" src="imagenes/Peli_Cine.png" alt="Logo"></a></li>
+            <li class="nav-item"><a class="nav-link" href="./accion">Acción</a></li>
+            <li class="nav-item"><a class="nav-link" href="./comedia">Comedia</a></li>
+            <li class="nav-item"><a class="nav-link" href="./drama">Drama</a></li>
+            <li class="nav-item"><a class="nav-link" href="./cienciaficcion">Ciencia Ficción</a></li>
+            <li class="nav-item"><a class="nav-link" href="./Animacion">Animación</a></li>
         </ul>
     </nav>
 

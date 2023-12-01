@@ -15,6 +15,6 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::get('/peliculas/{genero}', [PeliculaController::class, 'mostrarPeliculas']);
-Route::get('/peliculas', [HomeController::class, 'index']);
+Route::get('/{genero}', [PeliculaController::class, 'mostrarPeliculas']);
+Route::get('/', [HomeController::class, 'index']);
 
