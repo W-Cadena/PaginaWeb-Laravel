@@ -1,0 +1,176 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 12px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.seccion_log{
+    background-color: #333;
+}
+
+.logo{
+    height:120px;
+    width:200px;
+    max-width: 220px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.recomendadas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1600px;
+    padding: 50px;
+}
+
+.video{
+    width: 500px;
+    margin: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recomendada {
+    width: 1600px;
+    height: 500px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.recomendada img {
+    width: 300px;
+    height: 320px;
+    max-width: 200px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button{
+    width: 220px;
+    color:beige;
+}
+
+.recomendada h3,
+.recomendada p {
+    padding: 10px;
+    margin: 0;
+}
+
+.navegar :hover{
+    border: #ccc;
+    background-color: #ccc;
+    color: #333;
+    border-style: solid;
+}
+
+#inicio{
+    color:#ccc;
+}
+
+#inicio :hover{
+    border: #ccc;
+    background-color: #ccc;
+    color: #333;
+    border-style: solid;
+}
+
+#seccion1{
+    max-width: 1600px;
+    width: auto;
+    height: auto;
+}
+
+.dvd{
+    width: 220px;
+    height: 330px;
+    align-items: center;
+    color:beige;
+    transition: transform .5s ease-out;
+
+  }
+
+  .dvd:hover{
+    transform: translateY(20px) scaleY(1.2) scaleX(1.2);
+  }
+
+.slidein {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
