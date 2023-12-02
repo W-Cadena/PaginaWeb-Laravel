@@ -5,12 +5,12 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Pelicula extends Model
+class Populares extends Model
 {
-    
-    public function populares()
+
+public function pelicula()
 {
-    return $this->hasMany(Popular::class);
+    return $this->belongsTo(Pelicula::class);
 }
 
     use HasFactory;

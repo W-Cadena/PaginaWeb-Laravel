@@ -16,5 +16,5 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/{genero}', [PeliculaController::class, 'mostrarPeliculas']);
-Route::get('/', [HomeController::class, 'index']);
+Route::get('/', [HomeController::class, 'mostrarPopularesPorGenero', 'drama'=>$genero]);
 

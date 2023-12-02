@@ -3,30 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Géneros de Películas</title>
+    <title>Menu Principal</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/menu_principal.css">
+    <link rel="stylesheet" href="./css/main.css">
     <script src="./js/funciones.js"></script>
 </head>
 <body>
 
     <header class="bg-dark text-white p-4 d-flex justify-content-between align-items-center">
-        <section class="seccion_log">
-            
-        </section>
-        <aside>
-            <a id="inicio" href="iniciosesion.html" class="text-light">Iniciar sesión</a>
-        </aside>
     </header>
 
     <nav class="bg-secondary text-white p-2">
-        <ul class="nav">
-            <li class="nav-item"><a class="nav-link" href="./"><img class="logo navbar-brand" src="imagenes/Peli_Cine.png" alt="Logo"></a></li>
+    <ul class="nav align-items-center">
+            <li class="nav-item"><a class="nav-link" href="./"><img class="logo navbar-brand" src="image/Peli_Cine.png" alt="Logo"></a></li>
             <li class="nav-item"><a class="nav-link" href="./accion">Acción</a></li>
             <li class="nav-item"><a class="nav-link" href="./comedia">Comedia</a></li>
             <li class="nav-item"><a class="nav-link" href="./drama">Drama</a></li>
             <li class="nav-item"><a class="nav-link" href="./cienciaficcion">Ciencia Ficción</a></li>
             <li class="nav-item"><a class="nav-link" href="./Animacion">Animación</a></li>
+            <li class="nav-item ml-auto"><aside><a id="inicio" href="iniciosesion.html" class="text-light">Iniciar sesión</a></aside></li>&nbsp;&nbsp;
         </ul>
     </nav>
 
